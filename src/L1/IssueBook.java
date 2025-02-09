@@ -33,7 +33,6 @@ public class IssueBook extends javax.swing.JFrame {
 public void clear(){
         txtname.setText("");
         txtdudate.setText("");
-        txtisdate.setText("");
         txtstid.setText("");
         txtid.setText("");
     }
@@ -110,10 +109,20 @@ public void clear(){
         jLabel6.setForeground(new java.awt.Color(102, 0, 51));
         jLabel6.setText("DUE DATE:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 545, 113, -1));
+
+        txtid.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(338, 211, 236, 38));
+
+        txtstid.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtstid, new org.netbeans.lib.awtextra.AbsoluteConstraints(338, 289, 236, 43));
+
+        txtname.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtname, new org.netbeans.lib.awtextra.AbsoluteConstraints(338, 369, 236, 42));
+
+        txtisdate.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtisdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(338, 451, 236, 46));
+
+        txtdudate.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtdudate, new org.netbeans.lib.awtextra.AbsoluteConstraints(338, 534, 236, 43));
 
         btnissue.setBackground(new java.awt.Color(204, 255, 204));

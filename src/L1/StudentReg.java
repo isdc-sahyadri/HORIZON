@@ -97,10 +97,20 @@ public class StudentReg extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(102, 0, 51));
         jLabel6.setText("SEMESTER:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(88, 468, 109, -1));
+
+        txtid.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 143, 350, 35));
+
+        txtname.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtname, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 222, 350, 36));
+
+        txtcourse.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtcourse, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 297, 350, 35));
+
+        txtbranch.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtbranch, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 367, 350, 36));
+
+        txtsem.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtsem, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 461, 350, 34));
 
         btnsave.setBackground(new java.awt.Color(204, 255, 204));

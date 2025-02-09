@@ -100,15 +100,24 @@ public class AddBook extends javax.swing.JFrame {
         jLabel6.setText("ADD BOOK DETAILS");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 51, 315, -1));
 
+        txtname.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         txtname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtnameActionPerformed(evt);
             }
         });
         getContentPane().add(txtname, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 330, 292, 39));
+
+        txtid.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtid, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 240, 292, 39));
+
+        txtprice.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtprice, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 510, 292, 39));
+
+        txtyear.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtyear, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 600, 292, 39));
+
+        txtpublisher.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
         getContentPane().add(txtpublisher, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 430, 292, 39));
 
         btnsave.setBackground(new java.awt.Color(204, 255, 204));
